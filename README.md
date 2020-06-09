@@ -1,14 +1,15 @@
+---
+youtubeId: MUQfKFzIOeU
+---
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/RodBuaiz/rodbuaiz/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/MUQfKFzIOeU" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/3084678" width="640" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+{% include youtubePlayer.html id=page.youtubeId %}
 
 ### Markdown
 
