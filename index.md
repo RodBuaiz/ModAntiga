@@ -1,5 +1,6 @@
 ---
 youtubeId: MUQfKFzIOeU
+cidade: Domingos Martins
 ---
 ## Welcome to GitHub Pages
 
@@ -10,6 +11,8 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 <iframe src="https://player.vimeo.com/video/3084678" width="640" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 {% include youtubePlayer.html id=page.youtubeId %}
+
+<p>{{ layout.cidade }}</p>
 
 ### Markdown
 
