@@ -1,14 +1,14 @@
 ---
 youtubeId: MUQfKFzIOeU
+vimeoId: 3084678
 cidade: Domingos Martins
 ---
 ## Welcome to GitHub Pages
 
-### IFRAME:
+### INCLUDE VIMEO:
+{% include vimeoPlayer.html id=page.vimeoId %}
 
-<iframe src="https://player.vimeo.com/video/3084678" width="640" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-### JECKYL INCLUDE
+### INCLUDE YT
 {% include youtubePlayer.html id=page.youtubeId %}
 
 <p>{{ page.cidade }}</p>
