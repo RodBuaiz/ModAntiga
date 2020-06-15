@@ -11,7 +11,7 @@ cidade: Domingos Martins
 ### JECKYL INCLUDE
 {% include youtubePlayer.html id=page.youtubeId %}
 
-<p>{{ layout.cidade }}</p>
+<p>{{ page.cidade }}</p>
 
 ### Markdown basic YT embed
 
