@@ -3,7 +3,6 @@ youtubeId: MUQfKFzIOeU
 vimeoId: 3084678
 cidade: Domingos Martins
 ---
-## Welcome to GitHub Pages
 
 ### INCLUDE VIMEO:
 {% include vimeoPlayer.html id=page.vimeoId %}
